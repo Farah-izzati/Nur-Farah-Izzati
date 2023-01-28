@@ -1,0 +1,367 @@
+.menu
+{
+    text-align: right;
+}
+
+h1
+{
+    font-size: 50;
+    text-align: center;
+    background-color: #C2CFFD;
+    width: 100%;
+    height: 70px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+h2
+{
+    font-size: 20;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.fa-instagram
+{
+  color: black;
+}
+
+.fa-instagram:hover
+{
+  color: gray;
+}
+
+.fa-facebook
+{
+  color: black;
+}
+
+.fa-facebook:hover
+{
+  color: gray;
+}
+
+.fa-envelope
+{
+  color: black;
+}
+
+.fa-envelope:hover
+{
+  color: gray;
+}
+
+p
+{
+    text-align: center;
+    font-style: italic;
+    font-size: 20;
+}
+
+footer
+{
+  text-align: center;
+  padding: 3px;
+  background-color: #C9BFFF;
+  color: black;
+  font-size: small;
+  font-family: 'Times New Roman', Times, serif;
+ 
+}
+
+.img1
+{
+    text-align: center;
+    padding: 20px;
+}
+
+.img2
+{
+    text-align: center;
+    padding: 20px;
+}
+
+.center 
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    text-align: justify;
+    padding: 7px;
+}
+
+
+ul li{
+    
+    padding: 0px 8px;
+    list-style: none;
+    margin-right: 0px;
+    margin-top: 10px;
+    font-size: 16px;
+    display: inline-table;    
+}
+
+
+ul li a
+{
+    
+    text-decoration: none;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    transition: 0.4s ease-in-out;
+}
+
+ul li :hover{
+    color:grey;
+    font-weight: bold;
+}
+
+td 
+{
+    text-align: left;
+}
+
+.table
+{
+    margin-left: 400px;
+    margin-right: 400px;
+    padding-bottom: 25px;
+}
+
+
+table,tr,td,th
+{
+    border: 2px line;
+    padding: 5px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+tr:nth-child(even)
+{
+    background-color: #C9BFFF;
+}
+
+tr:hover 
+{
+    background-color: grey;
+}
+
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #f1f1f1;
+    padding: 20px;
+    font-family: Arial;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #f1f1f1;
+    padding: 20px;
+    font-family: Arial;
+  }
+  
+  /* Center website */
+  .main {
+    max-width: 1000px;
+    margin: auto;
+  }
+  
+  h1 {
+    font-size: 50px;
+    word-break: break-all;
+  }
+  
+  .row {
+    margin: 8px -16px;
+  }
+  
+  /* Add padding BETWEEN each column (if you want) */
+  .row,
+  .row > .column {
+    padding: 8px;
+  }
+  
+  /* Create four equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 25%;
+  }
+  
+  /* Clear floats after rows */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Content */
+  .content {
+    background-color: white;
+    padding: 10px;
+    font-size: smaller;
+    font-family:Georgia, 'Times New Roman', Times, serif
+  }
+  
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media screen and (max-width: 900px) {
+    .column {
+      width: 50%;
+    }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+  }
+
+  /* Container holding the image and the text */
+.container {
+    position: relative;
+  }
+  
+  /* Bottom right text */
+  .text-block 
+  {
+    position: absolute;
+    bottom: 50px;
+    right: 50px;
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-top: 20px;
+  }
+
+  .text-block 
+  {
+    position: absolute;
+    bottom: 50px;
+    right: 50px;
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-top: 20px;
+
+  }
+
+  .text-block 
+  {
+    position: absolute;
+    bottom: 50px;
+    right: 50px;
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-top: 20px;
+  }
+
+  .container {
+    position: relative;
+    max-width: 800px; /* Maximum width */
+    margin: 0 auto; /* Center it */
+    padding: 15px 0px;
+  }
+  
+  .container .content {
+    position: absolute; /* Position the background text */
+    bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+    background: grey(0, 0, 0); /* Fallback color */
+    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+    color: #f1f1f1; /* Grey text */
+    width: 50%; /* Full width */
+    padding: 9px; /* Some padding */
+  }
+
+  .container {
+    position: relative;
+    max-width: 800px; /* Maximum width */
+    margin: 0 auto; /* Center it */
+  }
+  
+  .container .content {
+    position: absolute; /* Position the background text */
+    bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+    background: grey(0, 0, 0); /* Fallback color */
+    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+    color: #f1f1f1; /* Grey text */
+    width: 100%; /* Full width */
+    padding: 9px; /* Some padding */
+  }
+
+  .container {
+    position: relative;
+    max-width: 800px; /* Maximum width */
+    margin: 0 auto; /* Center it */
+  }
+  
+  .container .content {
+    position: absolute; /* Position the background text */
+    bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+    background: grey(0, 0, 0); /* Fallback color */
+    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+    color: #f1f1f1; /* Grey text */
+    width: 100%; /* Full width */
+    padding: 9px; /* Some padding */
+  }
+
+  .container {
+    position: relative;
+    max-width: 800px; /* Maximum width */
+    margin: 0 auto; /* Center it */
+  }
+  
+  .container .content {
+    position: absolute; /* Position the background text */
+    bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+    background: grey(0, 0, 0); /* Fallback color */
+    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+    color: #f1f1f1; /* Grey text */
+    width: 450px; /* Full width */
+    padding: 9px; /* Some padding */
+  }
+
+  .container {
+    position: relative;
+    max-width: 800px; /* Maximum width */
+    margin: 0 auto; /* Center it */
+  }
+  
+  .container .content {
+    position: absolute; /* Position the background text */
+    bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+    background: grey(0, 0, 0); /* Fallback color */
+    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+    color: #f1f1f1; /* Grey text */
+    width: 100%; /* Full width */
+    padding: 9px; /* Some padding */
+  }
+
+  .container {
+    position: relative;
+    max-width: 800px; /* Maximum width */
+    margin: 0 auto; /* Center it */
+   
+  }
+  
+  .container .content {
+    position: absolute; /* Position the background text */
+    bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+    background: grey(0, 0, 0); /* Fallback color */
+    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+    color: #f1f1f1; /* Grey text */
+    width: 100%; /* Full width */
+    padding: 9px; /* Some padding */
+  }
+
